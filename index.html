@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <form action="" method="post" enctype="multipart/form-data">
+  <section>
+    <div class="fisrt">
+    <label for="pseudo"> Pseudo</label><br>
+    <input type="text" name="pseudo" id="pseudo"placeholder="Johnny"  style="background: rgb(217, 228, 228);"> <br></br>
+
+    <label for="name">Nom</label><br>
+    <input type="text" name="name" id="name" placeholder="Coulibaly" style="background: rgb(217, 228, 228);"><br></br>
+
+    <label for="prenom">Votre prenom</label></br>
+    <input type="text" name="prenom" id="prenom" placeholder="Pewonassoun Jeannot" required style="background: rgb(217, 228, 228);" ><br></br>
+
+    <label for="pasword">Pasword</label></br>
+    <input type="pasword" name="pasword" id="pasword" required  style="background: rgb(217, 228, 228);" ><br></br>
+   </div>
+   <div class="second">
+    <label for="rang">Jauge</label></br>
+    <input type="range" id="pasword"><br></br>
+
+    <label for="Civilité">Civilité</label></br>
+    <input type="radio" name="h" id="radio" >Homme
+    <input type="radio" name="f" id="radio" > Femme<br></br>
+
+    <label for="avatar">Avatar</label></br>
+    <input type="file" multiple style="background: aqua;"><br></br>
+   
+    <input type="submit" name="button" value="valider">
+    <script>
+    alert("veuillez remplir tous les champs") 
+    </script>
+  </div>
+ </section>
+</form>
+</body>
+</html>

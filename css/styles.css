@@ -1,0 +1,39 @@
+
+body{
+    align-items: center;
+    justify-content:center;
+    margin-top:5%;
+    margin-left:17%;
+    padding-left: 50px;
+    top:0%;
+    width: 57%;
+    border: 2px solid rgb(148, 148, 216) ;
+    border-radius: 20px;
+    position:relative;
+}
+section{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    top:0%;
+    margin-top:5% ;
+    margin-bottom:5%;
+    margin-left:5%;
+    margin-right:-50%;
+    width:80%;
+    height:10%;
+    background:rgb(200, 200, 211) ;
+    display: flex;
+}
+.second{
+    margin-left:15%;
+}
+[type="radio"]{
+    cursor: pointer;
+}
+
+[type="submit"]{
+    cursor: pointer;
+    background: rgb(185, 24, 99);
+    border-radius:10px;
+}
